@@ -33,6 +33,14 @@ A Java-based multi-user chat application using socket programming. The system al
 
 ## ▶️ How to Run
 
-### 🔹 Step 1: Compile all files
 ```bash
+# Step 1: Compile all files
 javac *.java
+
+# Step 2: Run Server
+java server
+
+# Step 3: Run Users (open separate terminals)
+java UserOne
+java UserSecond
+java UserThird
